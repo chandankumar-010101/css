@@ -1,0 +1,269 @@
+body {
+    font-family: 'Popins', sans-serif !important;
+}
+
+.collaborationContainer1 {
+    display: flex;
+    flex: 1;
+}
+
+.collaborationTextContainer1 {
+    display: flex;
+    flex: 0.7;
+    flex-direction: column;
+    padding-left: 4.5rem;
+    background-image: url('./images/Partners.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.collaborationImgContainer1 {
+    display: flex;
+    flex: 0.3;
+}
+
+.collaborationPartnerBtn {
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    border: none;
+    padding: 5px 12px;
+    background: linear-gradient(180deg, #0027B5 0%, #00006A 100%);
+    border-radius: 8px;
+    color: white;
+}
+
+.collaborationImg {
+    width: 450px;
+    position: relative;
+    top: -5em;
+    z-index: -1;
+    /* right: -4em; */
+}
+
+.collaborationContainer2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4em;
+}
+
+.collaborationTextContainer2 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-image: url('./images/Benifits.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.collaborationBoxContainer2 {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 25px; */
+}
+
+.collaborationBoxColumn1,
+.collaborationBoxColumn2,
+.collaborationBoxColumn3 {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.collaborationBoxColumn2 {
+    padding-top: 4em;
+}
+
+.collaborationBox {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 69px 114px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+    padding: 20px 20px 50px;
+    width: 350px;
+}
+
+.collaborationContainer3 {
+    display: flex;
+    flex: 1;
+    background: #F2F2FF;
+}
+
+.collaborationTextContainer3 {
+    display: flex;
+    flex: 0.6;
+    flex-direction: column;
+    padding-top: 8em;
+    padding-left: 5em;
+    background-image: url('./images/Collaborate.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.collaborationImgContainer3 {
+    display: flex;
+    flex: 0.4;
+    position: relative;
+}
+
+.collaborationContainer4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.collaborationTextContainer4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 4em;
+}
+
+.collaborationImgContainer4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Typography CSS */
+
+.collaborationTextContainer1H6, .careersHiringTextContainerH5, .careersJoinHeadingH5, .aboutTextContainerH6, 
+.aboutWhyBoxH5, .headingContainerH5, .ninthContainerH5, .tenthContainerH5, .blogContainer1H5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 125.5%;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.collaborationTextContainer1H2, .careersHiringTextContainerH2, .careersJoinTextContainerH2, .careersOpenPositionTextContainerH2,
+.aboutTextContainerH2, .aboutWhyContainerH2, .aboutTeamsContainerH2, .aboutMissionTextH2, .headingContainerH2, 
+.thirdContainerH2, .sixthContainerH2, .eightContainerH2, .ninthContainerH2, .tenthContainerH2, .blogContainerH2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125.5%;
+    /* or 60px */
+
+    text-transform: capitalize;
+
+    color: #333333;
+}
+
+.collaborationTextContainer1H5, .thirdContainerSubHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.25px;
+    text-transform: capitalize;
+
+    color: #333333;
+}
+
+.collaborationTextContainer1Para, .careersHiringTextContainerPara, .careersJoinPara, .careersOpenPositionTextContainerPara,
+.careersOpenPositionVacancyBoxPara, .aboutTextContainerPara, .aboutWhyContainerPara, .aboutWhyBoxPara, .aboutTeamsContainerPara,
+.aboutMissionTextHPara, .headingContainerPara, .fourthContainerPara, .sixthContainerPara, .eightContainerPara {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    text-transform: capitalize;
+
+    color: #53686A;
+}
+
+.collaborationTextContainer2H5, .careersJoinTextContainerH5, .careersOpenPositionTextContainerH5, .careersOpenPositionVacancyBoxH5,
+.aboutWhyContainerH6, .aboutTeamsContainerH5, .aboutMissionTextH5, .thirdContainerH5, .sixthContainerH5, 
+.eightContainerH5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 125.5%;
+    /* or 30px */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #333333;
+}
+
+.collaborationBoxHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.collaborationBoxPara {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+
+    /* Black */
+
+    color: #000000;
+
+    opacity: 0.7;
+}
+
+.collaborationTextContainer3H6, .careersLifeSubContainerH5, .aboutFounderTextContainerH5, .fifthContainerH5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.collaborationTextContainer3H2, .careersLifeSubContainerH2, .aboutFounderTextContainerH2, .fifthContainerH2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 63px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.collaborationTextContainer3Para, .aboutFounderTextContainerPara, .fifthContainerPara {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    text-transform: capitalize;
+
+    color: #53686A;
+}
+
+.collaborationTextContainer4H5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 119.7%;
+    /* identical to box height, or 29px */
+
+
+    color: #000000;
+
+    opacity: 0.7;
+}

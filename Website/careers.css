@@ -1,0 +1,199 @@
+body {
+    font-family: 'Popins', sans-serif !important;
+}
+
+.careersHiringContainer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3em;
+}
+
+.careersHiringSubContainer {
+    display: flex;
+    flex: 1;
+}
+
+.careersHiringTextContainer {
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('./images/Careers.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.careersHiringImgContainer {
+    display: flex;
+    flex: 0.5;
+    justify-content: flex-end;
+}
+
+.careersHiringBtnContainer {
+    display: flex;
+}
+
+.careersOpenBtn {
+    display: flex;
+    background: linear-gradient(180deg, #0027B5 0%, #00006A 100%);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+.careersLifeContainer {
+    display: flex;
+    height: 680px;
+    background: #F2F2FF;
+    flex: 1;
+}
+
+.careersLifeSubContainer1 {
+    display: flex;
+    flex: 0.7;
+    flex-direction: column;
+    padding-top: 4em;
+    padding-left: 5em;
+    background-image: url('./images/Life.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.careersJoinTextContainer {
+    background-image: url('./images/Join Us.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.careersLifeSubContainer2 {
+    display: flex;
+    flex: 0.3;
+}
+
+.careersBlueCornerImg {
+    position: absolute;
+    height: 450px;
+    right: 0;
+}
+
+.careersLifeImg {
+    display: flex;
+    gap: 2em;
+    max-width: 88vw;
+}
+
+.careersJoinContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.careersJoinBoxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.careersJoinBox {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+}
+
+.careersJoinHeading {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.careersOpenPositionContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.careersOpenPositionTextContainer {
+    display: flex;
+    flex-direction: column;
+    background-image: url('./images/apply Now.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.careerOpenPositionVacancyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.careersOpenPositionVacancyBox {
+    background: #F2F2FF;
+    border: 1px solid #D5D5FF;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 548px;
+}
+
+.careersOpenPositionApplyBtn {
+    background: linear-gradient(180deg, #0027B5 0%, #00006A 100%);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 7px 15px;
+}
+
+.careersOpenPositionDetailsBtn {
+    color: #0027B5;
+    border-radius: 8px;
+    border: 2px solid #0027B5;
+    padding: 5px 10px;
+}
+
+.careerOpenVacancyEnquiryContainer {
+    display: flex;
+    flex: 1;
+    background: linear-gradient(269.48deg, #0027B5 16.39%, #00006A 93.01%);
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    margin-top: 3em;
+}
+
+.careerEnquiryTextContainer {
+    display: flex;
+    flex: 0.7;
+    flex-direction: column;
+}
+
+.careerEnquiryBtnContainer {
+    display: flex;
+    flex: 0.3;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.careerEnquiryTextContainerH5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+
+
+    color: #FFFFFF;
+}
+
+.careerEnquiryTextContainerH6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 147% */
+
+
+    color: #FFFFFF;
+}
